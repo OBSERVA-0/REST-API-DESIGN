@@ -1,0 +1,14 @@
+{
+  "name": "rest-api-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
