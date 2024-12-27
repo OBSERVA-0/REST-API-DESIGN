@@ -1,0 +1,30 @@
+//vs-code REST CLIENT TO TEST api design to ensure it works
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/676e0594b13bb6fa6d7b4cc4
+
+###
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Bob",
+    "subscribedToChannel": "c#TV"
+}
+
+###
+
+PATCH  http://localhost:3000/subscribers/676e0594b13bb6fa6d7b4cc4
+Content-Type: application/json
+
+{
+    "name":"silva",
+    "subscribedToChannel":"Mr Beast"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/676e0594b13bb6fa6d7b4cc4
+
